@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CodingProblem1/bin/Debug
+/CodingProblem1/obj/Debug
+*.suo
