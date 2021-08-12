@@ -7,10 +7,11 @@
     <ProjectGuid>{EFCF477D-7D37-457C-86AD-C721A9AFFDC2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodingProblem1</RootNamespace>
-    <AssemblyName>CodingProblem1</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>CodingProblems</RootNamespace>
+    <AssemblyName>CodingProblems</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -41,11 +42,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problem1\Problem1.cs" />
+    <Compile Include="Problem2\Problem2.cs" />
+    <Compile Include="Problem3\Node.cs" />
+    <Compile Include="Problem3\Problem3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.Common.dll" />
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.Core.dll" />
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.CSharp.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.CSharp.dll" />
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.CSharp.Workspaces.dll" />
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.Workspaces.Common.dll" />
+    <Analyzer Include="..\packages\Roslynator.Analyzers.3.2.0\analyzers\dotnet\cs\Roslynator.Workspaces.Core.dll" />
+    <Analyzer Include="..\packages\Roslynator.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Roslynator.CodeAnalysis.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\Roslynator.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Roslynator.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="..\packages\Roslynator.Formatting.Analyzers.1.2.1\analyzers\dotnet\cs\Roslynator.Formatting.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\Roslynator.Formatting.Analyzers.1.2.1\analyzers\dotnet\cs\Roslynator.Formatting.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,3 +5,9 @@
 /CodingProblem1/bin/Debug
 /CodingProblem1/obj/Debug
 *.suo
+/CodingProblemsTests/bin/Debug
+/CodingProblemsTests/obj/Debug
+/packages
+/.vs
+/CodingProblems/bin/Debug
+/CodingProblems/obj
